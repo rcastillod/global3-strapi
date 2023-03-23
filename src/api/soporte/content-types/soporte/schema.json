@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "soportes",
+  "info": {
+    "singularName": "soporte",
+    "pluralName": "soportes",
+    "displayName": "Soporte",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "bloquesoporte": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloquepagina.bloque-soporte",
+      "required": true
+    }
+  }
+}

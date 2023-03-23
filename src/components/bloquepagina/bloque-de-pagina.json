@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_bloquepagina_bloque_de_paginas",
+  "info": {
+    "displayName": "Bloque empresa",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "antetitulo": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "text"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

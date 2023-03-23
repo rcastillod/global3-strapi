@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "agencias",
+  "info": {
+    "singularName": "agencia",
+    "pluralName": "agencias",
+    "displayName": "Agencia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "bloqueempresa": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloquepagina.bloque-de-pagina"
+    },
+    "bloquefilosofia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bloquepagina.bloque-filosofia"
+    }
+  }
+}
